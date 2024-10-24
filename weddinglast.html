@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이수호 & 이지은 결혼식 초대장</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f9f5f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f5f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('bride_groom_illustration.jpg'); /* 배경 이미지 URL */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.2;
+            z-index: -1;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #a67c5b;
+            margin: 20px 0;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 18px;
+            color: #6e503a;
+        }
+        .wedding-details, .comments, .guestbook, .account {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff9f2;
+            border-radius: 8px;
+        }
+        .photo-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .photo-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .map {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .comments ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .comments li {
+            padding: 10px;
+            background-color: #ffffff;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #6e503a;
+        }
+        .guestbook textarea {
+            width: 100%;
+            height: 100px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .guestbook button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #a67c5b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .guestbook button:hover {
+            background-color: #8e6249;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>이수호 & 이지은</h1>
+        <p>사랑과 기쁨으로 함께하는 우리 결혼식에 귀한 발걸음을 초대합니다.<br>아름다운 순간을 함께 나누며 기억에 남을 특별한 날을 만들어 주세요.</p>
+        
+        <div class="wedding-details">
+            <h2>결혼식 정보</h2>
+            <p><strong>날짜:</strong> 2025년 3월 8일 (토요일)</p>
+            <p><strong>시간:</strong> 오후 3시</p>
+            <p><strong>장소:</strong> 그랜드 웨딩홀 (서울시 강남구 첨담로 123)</p>
+        </div>
+
+        <div class="photo-gallery">
+            <img src="photo1.jpg" alt="신랑 신부 사진 1">
+            <img src="photo2.jpg" alt="신랑 신부 사진 2">
+            <img src="photo3.jpg" alt="신랑 신부 사진 3">
+        </div>
+
+        <div class="map">
+            <h2>오시는 길</h2>
+            <p>서울시 강남구 첨담로 123, 그랜드 웨딩홀</p>
+            <!-- Google Map Embed Code -->
+            <iframe
+                width="100%"
+                height="300"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.920568146568!2d127.03521641531172!3d37.516448979807144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1409dbcb1d9%3A0x2cf09827deef57be!2sGangnam-gu%2C%20Seoul!5e0!3m2!1sen!2skr!4v1638776784451!5m2!1sen!2skr" allowfullscreen></iframe>
+        </div>
+
+        <div class="comments">
+            <h2>축하 메시지</h2>
+            <ul>
+                <li>와, 드디어 결혼하시네요! 너무 축하드려요! – 김민수</li>
+                <li>두 분 너무 잘 어울려요! 결혼 축하드려요! – 박지영</li>
+                <li>오래오래 행복하게 사세요! – 장현우</li>
+                <li>신랑 신부님 모두 아름답네요, 결혼 축하합니다! – 이지훈</li>
+                <li>결혼 축하드립니다, 행복하세요! – 정미경</li>
+                <li>새로운 출발을 응원합니다! – 최민지</li>
+                <li>두 분의 앞날에 행복만 가득하길! – 강한별</li>
+                <li>멋진 결혼식 기대할게요! – 윤하은</li>
+                <li>사랑 넘치는 결혼식이 되길 바랍니다! – 김재민</li>
+                <li>행복한 가정 이루세요! – 임수진</li>
+                <li>두 분의 결혼 진심으로 축하드립니다! – 이수민</li>
+                <li>결혼식이 너무 기대돼요! – 박성호</li>
+                <li>진심으로 결혼 축하드려요! – 한예슬</li>
+                <li>예쁜 신부님, 멋진 신랑님! 결혼 축하드립니다! – 김나영</li>
+                <li>행복 가득한 결혼 생활 되세요! – 송지훈</li>
+                <li>사랑이 가득한 결혼식 되길 바랍니다! – 전수영</li>
+                <li>두 분의 결혼 정말 축하드려요! – 홍은지</li>
+                <li>함께해주셔서 감사합니다! – 유재현</li>
+                <li>축하한다 이제시작이네 – 우 혁</li>
+                <li>수호야 축하한다!! – 서휘수</li>
+            </ul>
+        </div>
+
+        <div class="guestbook">
+            <h2>방명록 남기기</h2>
+            <textarea placeholder="여기에 축하 메시지를 남겨주세요."></textarea>
+            <button>메시지 남기기</button>
+        </div>
+
+        <div class="account">
+            <h2>신한은행 계좌번호</h2>
+            <p>계좌번호: 110-253-682247 (신한은행, 이수호)</p>
+        </div>
+    </div>
+</body>
+</html>
